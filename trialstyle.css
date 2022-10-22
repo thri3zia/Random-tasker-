@@ -1,0 +1,104 @@
+body {
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    padding: 20px;
+    width: 400px;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 12px;
+}
+
+.container h2 {
+    text-transform: uppercase;
+    text-align: center;
+    color: navajowhite;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    border: 1px solid white;
+    border-radius: 6px;
+    background: transparent;
+    color: navajowhite;
+    height: 30px;
+    width: 320px;
+}
+
+input::placeholder {
+    color: white;
+    font-size: .8rem;
+}
+
+input:focus {
+    font-size: .9rem;
+    outline: none !important;
+    border-color: white;
+    box-shadow: 0 0 10px white;
+}
+
+#button {
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    display: inline-block;
+    background-color: navajowhite;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 2px;
+    margin-left: 5px;
+    padding: 3px 15px;
+}
+
+#button:hover {
+    cursor: pointer;
+    opacity: .8;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+ol li {
+    padding: 5px;
+    color: navajowhite;
+}
+ol li:nth-child(odd) {
+    background: green;
+}
+ol li:nth-child(even) {
+    background: rgba(0, 104, 0, 0.459);
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.btn{
+    font-size: .7rem;
+    font-weight: bold;
+    padding: 3px;
+    background-color: lemonchiffon;
+    color: brown;
+    text-transform: uppercase;
+    float: right;
+    border: none;
+    text-align: center;
+    border-radius: 3px;
+}
+.btn:hover {
+    cursor: pointer;
+    opacity: .8;
+}
